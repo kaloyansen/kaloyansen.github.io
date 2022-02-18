@@ -1,4 +1,3 @@
-![dev3](dev.jpg)
 # apformation [en ligne](https://freeshell.de/morla/ap)
 
 ### Kaloyan KRASTEV
