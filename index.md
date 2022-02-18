@@ -1,1 +1,1 @@
-# ![welcome](dev.jpeg)
+# ![welcome](dev.jpg)
