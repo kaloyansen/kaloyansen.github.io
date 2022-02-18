@@ -1,2 +1,2 @@
-[![code source](dev.jpg)](https://github.com/kaloyansen)
+[![Kaloyan KRASTEV](dev.jpg)](https://github.com/kaloyansen)
 4
