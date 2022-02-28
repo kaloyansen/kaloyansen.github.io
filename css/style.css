@@ -1,0 +1,141 @@
+/* css code by Kaloyan KRASTEV */
+/* kaloyansen@gmail.com */
+@import url('https://fonts.googleapis.com/css?family=Outfit&display=swap');
+
+@keyframes slide {from { transform:translateX(-100vh)translateY(-100vw);
+                         opacity: 0;
+                       }
+                  to {
+                      transform: translateX(0) translateY(0);
+                      opacity: 1;
+                  }
+                 }
+@keyframes slidex {from { transform:translateX(100vh)translateY(-100vw);
+	                  opacity: 0;
+                        }
+                   to {
+                       transform: translateX(0) translateY(0);
+                       opacity: 1;
+                   }
+                  }
+
+*,*:before,*:after{ padding: 0; margin: 0; box-sizing: border-box; }
+input,textarea{ outline:none }
+button,input[type="submit"] { outline: none; border: none; }
+button:hover,input[type="submit"] { cursor: pointer; transform: translateY(-0.25em); }
+li,a { text-decoration: none; }
+
+/* Focusing the button with a keyboard will show a dashed black line. */
+button:focus-visible { outline: 4px dashed black; }
+/* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
+button:focus:not(:focus-visible) { outline: none; box-shadow: 1px 1px 5px rgba(1, 1, 0, .7); }
+
+html { height: 100%; }
+body {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    display: block;
+    margin: auto;
+    background-color: #eee;
+}
+
+#info {
+    display: inline-block;
+    border: 0px solid gray;
+    width: 69vw;
+    margin: 10px 0;
+    padding: 11px 0;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    margin: 0 15vw 33px 15vw;
+    padding: 3vw;
+    background-color: #fff;
+    animation: slide 0.333s;*/
+}
+
+#main #container {
+    text-align: left;
+    height: 456px;    
+}
+
+#main #condroite {
+    text-align: left;
+    margin: auto;
+}
+
+#section {
+    background-color: #bbb;
+    padding: 11px;
+}
+
+[id^="lien"] {
+    display: block;
+    text-decoration: none;
+}
+
+#input { cursor: none; }
+#input, #inpid {
+    display: block;
+    background-color: #efface;
+    border: 1px solid gray;
+}
+
+#clavier {
+    animation: slidex 1s;
+}
+
+.chat {
+    border: 0px dotted black;
+}
+
+button {
+    cursor: pointer;
+}
+
+.clavier, #valider, #effacer {/* buttons d'input*/
+    border-radius: 3%;
+    margin: 4px 2px;
+    text-decoration: none;
+    font-size: 44px;
+    width: 55px;
+    height: 55px;
+    /*animation: slidex 1s;*/
+}
+
+#valider, #effacer {
+    display: none;
+    width: 115px;
+    height: 33px;
+    margin: 2px;
+    font-size: 20px;
+    left: 0px;
+    border-radius: 6%;
+}
+
+
+
+noscript {
+    display: block;
+    color: black;
+    background-color: red;
+    font-size: 15vw;
+    text-align: center;
+    margin: 5vw;
+    padding: 5vw;
+}
+
+
+
+@media screen and (max-width: 765px) {	
+    #main {
+	grid-template-columns: 1fr;
+    }
+}
+
+
