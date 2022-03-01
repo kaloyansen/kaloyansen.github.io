@@ -17,6 +17,7 @@ scriptLoad(HEAD, "js/login.js",
            "et si par hasard le script s'injecte lui-mêma",
            "ça sera un traitement infini");
 
+
 /***************************************************************** */
 /*********************   trois fonctions   *********************** */
 /***************************************************************** */

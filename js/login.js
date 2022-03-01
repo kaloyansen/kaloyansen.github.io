@@ -11,7 +11,7 @@ var BREAK       = false;//interrupt interval
 /* constants d'abord */
 const URLAPI    = "https://www.ericfreelance.fr/api/check_user.php";
 const PASSIZE   = 6;
-const FREQUENCE = 0.054321;//talk fréquence, Hz
+const FREQUENCE = 0.321;//talk fréquence, Hz
 const CHIFFRE   = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
                    " ", " ", " ", " ", " ", " "];
 const VALIDER   = window.document.getElementById("valider");
@@ -23,6 +23,7 @@ const LABEL     = window.document.getElementById("label");
 const LABID     = window.document.getElementById("labid");
 const BODY      = window.document.querySelector("body");
 const INFO      = window.document.getElementById("info");
+const CONTAINER = window.document.getElementById("container");
 const TALK      = ["https://www.kalodev.site to learn more",
                    "javascript code by Kaloyan KRASTEV",
                    "there is no limit for the imagination",
@@ -30,6 +31,8 @@ const TALK      = ["https://www.kalodev.site to learn more",
                    "ne jamais dis jamais je ne boirai",
                    "if you share it your code is no more secret",
                    `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,
+                   `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
+                   `<a href = "back">representational state transfer application programming interface 100% php</a>`,                   
                    `une liste <a href = "https://freeshell.de/morla/ap">opérationnelle</a> d'apformation projets`];
 
 class kalo {/* une classe général des instruments essenciels
@@ -64,7 +67,6 @@ class kalo {/* une classe général des instruments essenciels
             window.console.log(texte);
             break;
         case INFO:
-            INFO.style.backgroundColor = "#efface";
             INFO.innerHTML = texte;
             break;
         default:
@@ -112,14 +114,22 @@ const itr = kalo.rndGenerator(TALK);
 const winterval = window.setInterval(() => {
     let item = itr.next();
     if (item.done || BREAK) clearInterval(winterval);
-    kalo.setContent(INFO, "inforouleau", item.value);
-    INFO.style.backgroundColor = "#eee";
+    kalo.setContent(INFO, "inforouleau ", item.value);
 
 }, Math.round(1000 / FREQUENCE));
 
+
+
+CONTAINER.addEventListener("click", function() {
+    CONTAINER.style.display = "none";
+}, false);
+
+
 var roule = BUTTON.length;
-kalo.setContent(LABEL, `${PASSIZE} chiffres code secret`);
-kalo.setContent(LABID, `identification`);
+//kalo.setContent(LABEL, `${PASSIZE} chiffres code secret`);
+//kalo.setContent(LABID, `identification`);
+
+
 
 
 while (0 < roule --) {

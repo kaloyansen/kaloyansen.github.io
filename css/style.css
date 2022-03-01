@@ -30,47 +30,58 @@ button:focus-visible { outline: 4px dashed black; }
 /* Focusing the button with a mouse, touch, or stylus will show a subtle drop shadow. */
 button:focus:not(:focus-visible) { outline: none; box-shadow: 1px 1px 5px rgba(1, 1, 0, .7); }
 
-html { height: 100%; }
+html {
+	height: 100%;
+
+}
+
 body {
-    position: relative;
+    background-color: #123456;
+    color: white;
+	position: relative;
     height: 100%;
     text-align: center;
     font-family: 'Outfit', sans-serif;
     font-size: 12px;
     display: block;
     margin: auto;
-    background-color: #eee;
 }
 
 #info {
-    display: inline-block;
-    border: 0px solid gray;
+    /*display: block;
     width: 69vw;
-    margin: 10px 0;
-    padding: 11px 0;
+    margin: auto;
+    padding: 11px 100px;*/
+    font-size: 44px;
+    min-height: 456px;
 }
 
 #main {
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    margin: 0 15vw 33px 15vw;
-    padding: 3vw;
-    background-color: #fff;
-    animation: slide 0.333s;*/
+    border: 1px solid gray;
+	border-radius: 0;
 }
 
 #main #container {
-    text-align: left;
-    height: 456px;    
+
+    border: 0px solid gray;
+	background-image: url('../../dev.svg');
+    background-attachment: fixed;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    background-color: transparent;    
+    background-size: cover;
+    background-position: center;
+    min-height: 456px;    
+    animation: slide 0.333s;
 }
 
 #main #condroite {
-    text-align: left;
+	text-align: center;
     margin: auto;
 }
 
 #section {
-    background-color: #bbb;
+    /*background-color: #bbb;*/
     padding: 11px;
 }
 
@@ -130,12 +141,5 @@ noscript {
     padding: 5vw;
 }
 
-
-
-@media screen and (max-width: 765px) {	
-    #main {
-	grid-template-columns: 1fr;
-    }
-}
 
 
