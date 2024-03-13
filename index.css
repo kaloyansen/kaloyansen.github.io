@@ -6,6 +6,12 @@
 .ecrm-1200{font-size:120%;}
 .tcrm-1200{font-size:120%;}
 .ecrm-0900{font-size:90%;}
+.ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
+.ectt-1000{ font-family: monospace,monospace;}
 .ecrm-0700{font-size:70%;}
 p{margin-top:0;margin-bottom:0}
 p.indent{text-indent:0;}
@@ -154,5 +160,12 @@ div.array {text-align:center;}
 dt.printshorthands{float:left; clear:left; margin-right:1em;}
 dd.thebibliography {margin-left: 2.5em;}
 dt.thebibliography {float:left; clear:left; margin-right:1em;}
+#TBL-2-1{border-left: 1px solid black;}
+#TBL-2-1{border-right:1px solid black;}
+#TBL-2-2{border-right:1px solid black;}
+#TBL-2-2{border-right:1px solid black;}
+#TBL-2-3{border-right:1px solid black;}
+#TBL-2-4{border-right:1px solid black;}
+#TBL-2-5{border-right:1px solid black;}
 /* end css.sty */
 
