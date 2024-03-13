@@ -162,10 +162,9 @@ dd.thebibliography {margin-left: 2.5em;}
 dt.thebibliography {float:left; clear:left; margin-right:1em;}
 #TBL-2-1{border-left: 1px solid black;}
 #TBL-2-1{border-right:1px solid black;}
-#TBL-2-2{border-right:1px solid black;}
+#TBL-2-1{border-right:1px solid black;}
 #TBL-2-2{border-right:1px solid black;}
 #TBL-2-3{border-right:1px solid black;}
 #TBL-2-4{border-right:1px solid black;}
-#TBL-2-5{border-right:1px solid black;}
 /* end css.sty */
 
