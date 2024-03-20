@@ -33,7 +33,8 @@ const TALK      = ["visit https://kaloyansen.github.io to learn more",
                    `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,  */
                    `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
                    `<a href = "back">representational state transfer application programming interface 100% php</a>`,
-                   `une liste <a href = "https://freeshell.de/morla/ap">opérationnelle</a> de projets apformation`];
+                   `<a href = "https://freeshell.de/morla/ap">une liste opérationnelle</a> de projets apformation`,
+                   `<a href = "https://freeshell.de/morla/ap">an operational list</a> of projecta at apformation`];
 
 class kalo {/* une classe général des instruments essenciels
                il a seulement static méthods */
