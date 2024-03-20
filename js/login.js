@@ -24,15 +24,15 @@ const LABID     = window.document.getElementById("labid");
 const BODY      = window.document.querySelector("body");
 const INFO      = window.document.getElementById("info");
 const CONTAINER = window.document.getElementById("container");
-const TALK      = ["visit https://kaloyansen.github.io to learn more",
-                   "javascript code by Kaloyan KRASTEV",
+const TALK      = ["javascript code by Kaloyan KRASTEV",
                    "there is no limit for the imagination",
                    "if you share it your code is no more secret",
 /*                   "use the mouse and the virtual keyboard to enter your password",
                    "ne jamais dis jamais je ne boirai", 
                    `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,  */
                    `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
-                   `<a href = "back">representational state transfer application programming interface 100% php</a>`,
+                   `<a href = "https://kaloyansen.github.io/mvc">representational state transfer application programming interface 100% php</a>`,
+                   `<a href = "https://kaloyansen.github.io">visit Kaloyansen.github.io</a>  to learn more`,
                    `<a href = "https://freeshell.de/morla/ap">une liste opérationnelle</a> de projets apformation`,
                    `<a href = "https://freeshell.de/morla/ap">an operational list</a> of projects at apformation`];
 
