@@ -56,7 +56,6 @@ body {
     font-size: 44px;
     /*min-height: 456px;*/
     margin: 15% 15%;
-    text-align: center;
 }
 
 #main {
@@ -76,6 +75,7 @@ body {
     background-position: center;
     min-height: 456px;    
     animation: slide 0.333s;
+    text-align: center;
 }
 
 #main #condroite {
