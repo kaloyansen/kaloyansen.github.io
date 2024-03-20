@@ -24,11 +24,11 @@ const LABID     = window.document.getElementById("labid");
 const BODY      = window.document.querySelector("body");
 const INFO      = window.document.getElementById("info");
 const CONTAINER = window.document.getElementById("container");
-const TALK      = ["https://www.kalodev.site to learn more",
+const TALK      = ["visit https://kaloyansen.github.io to learn more",
                    "javascript code by Kaloyan KRASTEV",
                    "there is no limit for the imagination",
-                   "use the mouse and the virtual keyboard to enter your password",
-                   "ne jamais dis jamais je ne boirai",
+/*                   "use the mouse and the virtual keyboard to enter your password",
+                   "ne jamais dis jamais je ne boirai",  */
                    "if you share it your code is no more secret",
                    `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,
                    `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,

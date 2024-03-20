@@ -1,7 +1,7 @@
 /************************************ */
 /* javascript code by Kaloyan KRASTEV */
 /*       kaloyansen@gmail.com         */
-/*   https://github.com/kaloyansen    */
+/*   https://kaloyansen.github.io     */
 /************************************ */
 
 const HEAD = window.document.getElementsByTagName('head')[0];
