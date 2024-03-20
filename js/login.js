@@ -27,13 +27,13 @@ const CONTAINER = window.document.getElementById("container");
 const TALK      = ["visit https://kaloyansen.github.io to learn more",
                    "javascript code by Kaloyan KRASTEV",
                    "there is no limit for the imagination",
-/*                   "use the mouse and the virtual keyboard to enter your password",
-                   "ne jamais dis jamais je ne boirai",  */
                    "if you share it your code is no more secret",
-                   `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,
+/*                   "use the mouse and the virtual keyboard to enter your password",
+                   "ne jamais dis jamais je ne boirai", 
+                   `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,  */
                    `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
-                   `<a href = "back">representational state transfer application programming interface 100% php</a>`,                   
-                   `une liste <a href = "https://freeshell.de/morla/ap">opérationnelle</a> d'apformation projets`];
+                   `<a href = "back">representational state transfer application programming interface 100% php</a>`,
+                   `une liste <a href = "https://freeshell.de/morla/ap">opérationnelle</a> de projets apformation`];
 
 class kalo {/* une classe général des instruments essenciels
                il a seulement static méthods */
