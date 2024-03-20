@@ -24,12 +24,8 @@ const LABID     = window.document.getElementById("labid");
 const BODY      = window.document.querySelector("body");
 const INFO      = window.document.getElementById("info");
 const CONTAINER = window.document.getElementById("container");
-const TALK      = ["javascript code by Kaloyan KRASTEV",
-                   "there is no limit for the imagination",
-                   "if you share it your code is no more secret",
-/*                   "use the mouse and the virtual keyboard to enter your password",
-                   "ne jamais dis jamais je ne boirai", 
-                   `take a look at my <a href = "https://www.kalodev.site">django</a> project if up`,  */
+const TALK      = [`<a href = "https://kaloyansen.github.io">code by Kaloyan KRASTEV</a>`,
+                   `<a href = "https://kaloyansen.github.io">if you share it your code is no more secret</a>`,
                    `<a href = "https://kaloyansen.github.io/mvc">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
                    `<a href = "https://kaloyansen.github.io/mvc">representational state transfer application programming interface 100% php</a>`,
                    `<a href = "https://kaloyansen.github.io">visit kaloyansen.github.io to learn more</a>`,
