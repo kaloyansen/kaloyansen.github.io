@@ -158,6 +158,7 @@ while (0 < roule --) {
 
 }
 
+/*
 EFFACER.addEventListener("click", passwordReset, false);
 VALIDER.addEventListener("click", function() {
     let formData = new FormData();
@@ -166,7 +167,8 @@ VALIDER.addEventListener("click", function() {
 
     connexion(URLAPI, "post", formData, INFO);
     passwordReset();
-}, false);
+    }, false);
+*/
 
 /* **************************************************************** */
 /* **************************   function    *********************** */

@@ -67,7 +67,7 @@ body {
 #main #container {
 
     border: 0px solid gray;
-    background-image: url('../../dev.svg');
+    /* background-image: url('../../dev.svg'); */
     background-attachment: fixed;
     background-attachment: local;
     background-repeat: no-repeat;
