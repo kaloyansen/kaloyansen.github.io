@@ -54,8 +54,8 @@ body {
     padding: 15% 15%;
     width: 100%;
     font-size: 44px;
-    min-height: 456px;
-    /*margin: auto auto;*/
+    /*min-height: 456px;*/
+    margin: 15% 15%;
     text-align: center;
 }
 
