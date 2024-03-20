@@ -50,11 +50,11 @@ body {
 #info {
     /*display: block;
     width: 69vw;
-    margin: auto;*/
+    margin: auto;
+    min-height: 456px;
+    width: 100%;   */
     padding: 15% 15%;
-    width: 100%;
     font-size: 44px;
-    /*min-height: 456px;*/
     margin: 15% 15%;
 }
 
