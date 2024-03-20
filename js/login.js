@@ -34,7 +34,7 @@ const TALK      = ["visit https://kaloyansen.github.io to learn more",
                    `<a href = "back">interface de programmation d'applications de transfert d'état représentationnelle 100% php</a>`,
                    `<a href = "back">representational state transfer application programming interface 100% php</a>`,
                    `<a href = "https://freeshell.de/morla/ap">une liste opérationnelle</a> de projets apformation`,
-                   `<a href = "https://freeshell.de/morla/ap">an operational list</a> of projecta at apformation`];
+                   `<a href = "https://freeshell.de/morla/ap">an operational list</a> of projects at apformation`];
 
 class kalo {/* une classe général des instruments essenciels
                il a seulement static méthods */
