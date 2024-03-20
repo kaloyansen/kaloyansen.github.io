@@ -74,6 +74,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 456px;    
+    height: 90%;    
     animation: slide 0.333s;
     text-align: center;
     margin: auto;
