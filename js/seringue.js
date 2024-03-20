@@ -15,7 +15,7 @@ scriptLoad(HEAD, "js/login.js",
            "par contre si l'injection est enregistrée avant la précédante",
            "elle ne sera jamais chargée",
            "et si par hasard le script s'injecte lui-mêma",
-           "ça sera un traitement infini");
+           "ça sera pour toujour");
 
 
 /***************************************************************** */
