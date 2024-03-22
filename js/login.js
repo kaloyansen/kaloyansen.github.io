@@ -1,8 +1,8 @@
-/************************************ */
-/* javascript code by Kaloyan KRASTEV */
-/*       kaloyansen@gmail.com         */
-/*   https://github.com/kaloyansen    */
-/************************************ */
+/******************************************************/
+/*      javascript code by Kaloyan KRASTEV            */
+/*             kaloyansen@gmail.com                   */
+/*   https://kaloyansen.github.io/inforouleau.html    */
+/******************************************************/
 
 "usr strict";
 var VALEUR      = "";//password
