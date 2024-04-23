@@ -1,12 +1,49 @@
+     <style> A.epay-button { border: solid 1px #FFF; background-color:
+#168; padding: 6px; color: #FFF; background-image: none; font-weight:
+normal; padding-left: 20px; padding-right: 20px; } A.epay-button:hover
+{ border: solid 1px #ABC; background-color: #179; padding: 6px; color:
+#FFF; background-image: none; font-weight: normal; padding-left: 20px;
+padding-right: 20px; }
+
+
+
+
+
+
+
+</td>
+</tr>
+</table>
+
+<input type="hidden" name="MIN" value="2863982043">  <input type="hidden" name="DESCR" value="
+
+A.epay { text-decoration: none; border-bottom: dotted 1px #168; color: #168; font-weight: bold; }
+A.epay:hover              { text-decoration: none; border-bottom: solid  1px #179; color: #179; font-weight: bold; }
+
+TABLE.epay-view { white-space: nowrap; background-color: #CCC; }
+
+/********** VIEWES **********************************************************/
+
+TD.epay-view { width: 100%; text-align: center; background-color: #DDD; }
+TD.epay-view-header {                                  background-color: #168; color: #FFF; height: 30px; }
+TD.epay-view-name { width:  25%; text-align: right;  background-color: #E9E9F9; border-bottom: none;  height: 30px; }
+TD.epay-view-value { width:  75%; text-align: left;   background-color: #E9E9F9; border-bottom: none; white-space: normal; }
+
+INPUT.epay-button { border: solid  1px #FFF; background-color: #168; padding: 4px; color: #FFF; background-image: none; padding-left: 20px; padding-right: 20px; }
+INPUT.epay-button:hover   { border: solid  1px #ABC; background-color: #179; padding: 4px; color: #FFF; background-image: none; padding-left: 20px; padding-right: 20px; }
+</style>
+
 <form method="POST" action="https://www.epay.bg/v3main/paylogin">
-<input type="hidden" name="MIN" value="2863982043"> <input
-type="hidden" name="TOTAL" value="780"> <input type="hidden"
-name="DESCR" value="">
+<table class=epay-view cellspacing=1 cellpadding=4 width=350> <tr> <td
+class=epay-view-header align=center><<<<</td> <td
+class=epay-view-header align=center></tr> <tr> <td
+class=epay-view-value><b></b></td> <td class=epay-view-name> <input
+type=text name=TOTAL value="780" size=5> BGN </td> </tr> <tr> <td
+colspan=2 class=epay-view-name> <input class=epay-button type=submit
+name=BUTTON:EPAYNOW value=" "> </td> </tr> <tr> <td colspan=2
+class=epay-view-value style="white-space: normal; font-size: x-small">
+<a class=epay href="https://www.epay.bg/">ePay.bg</a> -">
 <input type="hidden" name="URL_OK" value="https://www.epay.bg/v3main/front?p=thanks">
 <input type="hidden" name="URL_CANCEL" value="https://www.epay.bg/v3main/front?p=cancel">
-<input type="hidden" name="ENCODING" value="utf8">  
-<input type="hidden" name="CHECKSUM" value="68abebcefc848714c58059de872af329d0daad6d">
-  <input type="image" src="https://online.datamax.bg/epaynow/b04.gif" alt="
-">
-
-</form>
+<input type="hidden" name="ENCODING" value="utf8"> <input type="hidden" name="CHECKSUM" value="68abebcefc848714c58059de872af329d0daad6d"> </form>
+ 
